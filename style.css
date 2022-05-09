@@ -1,5 +1,6 @@
 .container{
     display: flex;
+    border-radius: 25px;
 }
 
 @font-face{
@@ -8,11 +9,12 @@
 }
 
 .banner{
-    background-image: url("background.svg");
-    background-size: cover;
+    background: url("background.svg");
+    background-position: center;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 100vh;
-    width: max(400px, 30vw);
+    width: min(400px, 30vw);
 }
 
 .logo{
@@ -20,7 +22,7 @@
     background-color: rgba(0, 0, 0, 0.6);
     background-size: contain;
     background-repeat: no-repeat;
-    width: max(400px, 30vw);
+    width: min(400px, 30vw);
     height: 150px;
     top: 10rem;
     display: flex;
@@ -40,7 +42,7 @@ img{
 }
 
 .form{
-    width: 500px;
+    width: 600px;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
