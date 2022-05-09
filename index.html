@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./js.js" defer></script>
+    <title>Sign-up form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="banner"></div>
+            <div class="logo">
+                <img src="./odin-lined.png" alt="odin">
+                <div class ="text">ODIN</div>
+            </div>
+        <div class="form">
+            <div class="header">
+                <div>This is not a real online service! You know you need something
+                    like this in your life to help you realize your deepest dreams.
+                    Sign up <em>now</em> to get started.<br>
+                    <br>
+                    You know you want to.
+                </div>
+            </div>
+            <div class="body">
+                <form>
+                    <legend>Let's do this!</legend>
+                    <div class="name">
+                        <div class="first_name">
+                            <label for="first_name">First Name</label>
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div class="last_name">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+
+                    <div class="additional_info">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div class="number">
+                            <label for="tel">Phone Number</label>
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                    </div>
+
+                    <div class="passwords">
+                        <div class="password">
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password">
+                        </div>
+                        <div class="confirm_password">
+                            <label for="confirm_passsword">Confirm Password</label>
+                            <input type="password" name="confirm_password" id="confirm_passsword">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <button>
+                    Create Account
+                </button>
+                <div class="completed">
+                    <div>Already have an account?</div>
+                    <div class = "login">Log in</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
