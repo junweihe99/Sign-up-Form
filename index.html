@@ -10,11 +10,12 @@
 </head>
 <body>
     <div class="container">
-        <div class="banner"></div>
+        <div class="banner">
             <div class="logo">
                 <img src="./odin-lined.png" alt="odin">
                 <div class ="text">ODIN</div>
             </div>
+        </div>
         <div class="form">
             <div class="header">
                 <div>This is not a real online service! You know you need something
@@ -27,37 +28,29 @@
             <div class="body">
                 <form>
                     <legend>Let's do this!</legend>
-                    <div class="name">
-                        <div class="first_name">
-                            <label for="first_name">First Name*</label>
-                            <input type="text" name="first_name" id="first_name" placeholder="John" required>
-                        </div>
-                        <div class="last_name">
-                            <label for="last_name">Last Name*</label>
-                            <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
-                        </div>
+                    <div class="entry">
+                        <label for="first_name">First Name*</label>
+                        <input type="text" name="first_name" id="first_name" placeholder="John" required>
                     </div>
-
-                    <div class="additional_info">
-                        <div class="email">
-                            <label for="email">Email*</label>
-                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-                        </div>
-                        <div class="number">
-                            <label for="tel">Phone Number</label>
-                            <input type="tel" name="tel" id="tel" placeholder="123-456-7890">
-                        </div>
+                    <div class="entry">
+                        <label for="last_name">Last Name*</label>
+                        <input type="text" name="last_name" id="last_name" placeholder="Doe" required>
                     </div>
-
-                    <div class="passwords">
-                        <div class="password">
-                            <label for="password">Password*</label>
-                            <input type="password" name="password" id="password" placeholder="Password" required>
-                        </div>
-                        <div class="confirm_password">
-                            <label for="confirm_password">Confirm Password*</label>
-                            <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
-                        </div>
+                    <div class="entry">
+                        <label for="email">Email*</label>
+                        <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="entry">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel" placeholder="123-456-7890">
+                    </div>
+                    <div class="entry">
+                        <label for="password">Password*</label>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="entry">
+                        <label for="confirm_password">Confirm Password*</label>
+                        <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required>
                     </div>
                 </form>
             </div>
