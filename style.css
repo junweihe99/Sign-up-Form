@@ -1,6 +1,5 @@
 .container{
     display: flex;
-    border-radius: 25px;
 }
 
 @font-face{
@@ -20,8 +19,6 @@
 .logo{
     position: absolute;
     background-color: rgba(0, 0, 0, 0.6);
-    background-size: contain;
-    background-repeat: no-repeat;
     width: min(400px, 30vw);
     height: 150px;
     top: 10rem;
@@ -54,7 +51,7 @@ img{
 }
 
 .header{
-    padding: 128px 32px 64px;
+    padding: 128px 32px 32px;
     font-weight: bold;
 }
 
